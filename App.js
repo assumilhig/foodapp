@@ -5,14 +5,18 @@ import { View, Text } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+    <View className='flex-1 items-center justify-center bg-white'>
+      <Text className='text-sm'>Home Screen</Text>
+      <Text className='text-base'>Home Screen</Text>
+      <Text className='text-lg'>Home Screen</Text>
+      <Text className='text-5xl font-bold'>Home Screen</Text>
+      <Text className='text-lg'>Home Screen</Text>
     </View>
   );
 };
 function DetailsScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View className='flex-1 items-center justify-center bg-white'>
       <Text>Details Screen</Text>
     </View>
   );
